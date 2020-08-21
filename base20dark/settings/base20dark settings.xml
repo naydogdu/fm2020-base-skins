@@ -1,0 +1,48 @@
+<properties version="1.0">
+	
+	<!--  
+	 ============================================================
+	 Default Settings Modified By This Skin
+	 
+	 The definitions below will override the defaults contained
+	 in the parent skins, or in the various global and application
+	 settings files.
+	 
+	 ============================================================
+	 -->
+	
+	<!-- misc properties -->
+	<real id="background_opacity" value="1.0" />
+
+	<boolean id="disable_accent_colour" value="true" />
+	<boolean id="disable_dark_accent_colour" value="false" />
+	<boolean id="disable_primary_colour" value="false" />
+	<boolean id="disable_secondary_colour" value="false" />
+
+	<!-- Colour Scheme -->
+	<!-- The following colours define the base colours scheme for the skin. The colours are references by other colour names in fm colours.xml -->
+
+	<!-- Foreground colours - used for text, icon etc -->
+
+
+	<!-- Background colours - used for background, boxes etc -->
+	<colour name="bg lighter" 																	value="rgb(55,55,55)"/>
+	<colour name="bg" 																					value="rgb(44,44,44)"/>
+	<colour name="bg darker" 																		value="rgb(20,20,20)"/>
+
+	<!-- Card colours - used for places where the colours are inverted in the default skin. Inbox, Report cards, etc -->
+	<colour name="card fg lighter" 															value="rgb(255,255,255)"/>
+	<colour name="card fg" 																			value="rgb(244,244,244)"/>
+	<colour name="card fg darker" 															value="rgb(205,205,205)"/>
+	<colour name="card bg lighter" 															value="rgb(65,65,65)"/>
+	<colour name="card bg" 																			value="rgb(55,55,55)"/>
+	<colour name="card bg darker" 															value="rgb(40,40,40)"/>
+
+	<colour name="processing_box_background" 										value="rgb(44,44,44)"/>
+	
+	<!-- UI colours -->
+	<!-- These colours are used to recolour the appearance graphics used throughout the game, by replacing the red, green and blues of the graphics. -->
+	<!-- This allows fast creation of different colour schemes without having to modify and re-export the graphic assets -->
+
+
+</properties>
